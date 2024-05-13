@@ -11,7 +11,7 @@ const IndexPage = () => {
       <br />
       <Link href="/About">About</Link>
       <br />
-      <Link href="/Movies">Les Films</Link>
+      <Link href="/movies">Les Films</Link>
     </div>
   );
   

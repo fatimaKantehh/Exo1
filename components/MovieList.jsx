@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-function MoviePage() {
+function MovieList() {
     const [movies, setMovies] = useState([]);
     useEffect(async () => {
-        const response = await fetch("Movies");
+        const response = await fetch("movies");
         const movies = await response.json();
         setMovies(movies);
     }, []);
@@ -18,4 +18,4 @@ function MoviePage() {
             </ul>
         </div>);
 }
-export default MoviePage;
+export default MovieList;
