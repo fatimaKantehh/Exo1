@@ -7,11 +7,13 @@ const IndexPage = () => {
     <div>
       <HomePage/>
       <hr />
-      <Link href="/product">Products</Link>
-      <br />
-      <Link href="/About">About</Link>
-      <br />
-      <Link href="/movies">Les Films</Link>
+      <Link className="px-3 transition hover:text-red-500 font-bold"  href="/Customers">Customers</Link>
+      <p> </p>
+      <Link className="px-3 transition hover:text-red-500 font-bold" href="/About">About</Link>
+      <p> </p>
+      <Link className="px-3 transition hover:text-red-500 font-bold"  href="/Products">Products</Link>
+      <p> </p>
+      <Link className="px-3 transition hover:text-red-500 font-bold" href="/Movies">Les Films</Link>
     </div>
   );
   
